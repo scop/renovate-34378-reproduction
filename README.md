@@ -1,17 +1,21 @@
-# minimal-reproduction-template
+# 34378
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+Reproduction for https://github.com/renovatebot/renovate/discussions/34378
 
 ## Current behavior
 
-Explain the current behavior here.
+```diff
+-go = "1.23"
++go = "1.24.0"
+```
 
 ## Expected behavior
 
-Explain the expected behavior here.
+```diff
+-go = "1.23"
++go = "1.24"
+```
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/34378
